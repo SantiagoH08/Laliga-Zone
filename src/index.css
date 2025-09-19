@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+@import "tailwindcss";
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  background: #272629;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #a855f7;
+  border-radius: 4px;
+}
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #a855f7 #272629;
+}
